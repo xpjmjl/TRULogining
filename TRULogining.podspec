@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TRULogining'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TRULogining.'
+  s.summary          = 'TRULogining.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xupengju/TRULogining'
+  s.homepage         = 'https://github.com/xpjmjl/TRULogining.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xupengju' => 'xupengju@qupeiyin.com' }
-  s.source           = { :git => 'https://github.com/xupengju/TRULogining.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xpjmjl/TRULogining.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
