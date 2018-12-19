@@ -16,6 +16,24 @@
 
 @implementation LoginViewController
 
+- (instancetype)initXib {
+    self = [super initWithNibName:@"LoginViewController" bundle:nil];
+    return self;
+}
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+- (void)test {
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
