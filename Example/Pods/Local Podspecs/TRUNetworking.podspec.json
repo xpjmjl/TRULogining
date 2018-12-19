@@ -1,9 +1,9 @@
 {
   "name": "TRUNetworking",
-  "version": "0.1.0",
-  "summary": "A short description of TRUNetworking.",
+  "version": "0.0.1",
+  "summary": "description",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xupengju/TRUNetworking",
+  "homepage": "https://github.com/xpjmjl/TRUNetworking.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "xupengju": "xupengju@qupeiyin.com"
   },
   "source": {
-    "git": "https://github.com/xupengju/TRUNetworking.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/xpjmjl/TRUNetworking.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TRUNetworking/Classes/**/*"
+  "source_files": "TRUNetworking/Classes/**/*.{m,h}"
 }

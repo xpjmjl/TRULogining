@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14C5BCB00214D2736414AD38D92F3B73 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 520CFA4CF695872977969A23145BD61F /* NetWork.m */; };
 		1747F876D535B867B391A7ED9B579150 /* Pods-TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B19E5C1F8D67A57897380A82F66F12CD /* Pods-TRULogining-dummy.m */; };
-		3C0A1642D0F520C1647DB996DBB16EC8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B7F1AB15D083575D31B47F360C5C6 /* ReplaceMe.m */; };
+		17633C782E99B0437B42B20E55D3DC36 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DF3A6EF2E09612BA9B7CD4792F4CBF /* LoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		379B6C11D18F5BA4A270B1BEDF1BBD5B /* TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26027651635B8B99D75AE61F4C7FE624 /* TRULogining-dummy.m */; };
 		51D8BF7CDBBC49E65688029838783A70 /* Pods-TRULoginingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 676495183C9D17B4C9910B38C35CD284 /* Pods-TRULoginingUITests-dummy.m */; };
-		80C6273BA858D364AB4205F61BA83A62 /* TRUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8139DEAE02C8BA7429457705E7D7B008 /* TRUNetworking-dummy.m */; };
-		A4634171193E3F722E39E706C970DD74 /* TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CA89C7E0ADC3F89D736CAAA41B47 /* TRULogining-dummy.m */; };
+		7539BC8CF48D4EF26EE660C01AA18A2E /* TRUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AC74A880D09708062990626A097AA /* TRUNetworking-dummy.m */; };
+		A03CD2AF11F7FC37BAA37F3119878048 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DEF1C385AB0C1AF917EC4236FC70EA /* LoginViewController.m */; };
 		A7ED58FBAA046E75CDFDF4386152827D /* Pods-TRULoginingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5302BC30C02BC349EBD11D5AD59444 /* Pods-TRULoginingTests-dummy.m */; };
-		D808063EA3FB813440E147E390FEC41E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2E9A5305C055B419A98B5DD3997EB /* ReplaceMe.m */; };
+		D10F8CD80A974C2E8206B2B727892D9D /* NetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBB19988E7C1C50FD5E2EAA127DF8DD /* NetWork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4DB09CB9FF88140AEC1A07F25EB2798 /* LoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = B9A20A897C1E23003B5D23AD19DC3713 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,28 +59,31 @@
 
 /* Begin PBXFileReference section */
 		02243C1CA462126E9ABA8C5292631627 /* libPods-TRULoginingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULoginingTests.a"; path = "libPods-TRULoginingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0305776AF104574881D08649EE4E68D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		046D502E0A0FA653E7CB78A4A99D6831 /* TRUNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetworking-prefix.pch"; sourceTree = "<group>"; };
+		032AC74A880D09708062990626A097AA /* TRUNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNetworking-dummy.m"; sourceTree = "<group>"; };
+		0BBB19988E7C1C50FD5E2EAA127DF8DD /* NetWork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetWork.h; path = TRUNetworking/Classes/NetWork.h; sourceTree = "<group>"; };
 		0C3B2148E88EBC23AAC8F20E61489AC1 /* Pods-TRULogining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining.release.xcconfig"; sourceTree = "<group>"; };
 		0E744A91790E680BDE0F272E95DE0B5A /* Pods-TRULoginingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULoginingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20271695F0875BB93557BFE8828DE757 /* Pods-TRULogining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining.debug.xcconfig"; sourceTree = "<group>"; };
+		2275BC5B9F04999CDC4B7742C56F055F /* TRULogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRULogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26027651635B8B99D75AE61F4C7FE624 /* TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULogining-dummy.m"; sourceTree = "<group>"; };
 		2DBEBDE8131D59D1AD7425FE867276BE /* Pods-TRULoginingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULoginingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3534F35458982A46F90CB56B0EE138F5 /* TRULogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogining.xcconfig; sourceTree = "<group>"; };
+		3654F4E71332B68F64C63BA05EE1F5CD /* TRUNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetworking.xcconfig; sourceTree = "<group>"; };
 		37DD05779ED0BC48DE20F1D3EC6EC405 /* Pods-TRULogining-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULogining-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B5302BC30C02BC349EBD11D5AD59444 /* Pods-TRULoginingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULoginingTests-dummy.m"; sourceTree = "<group>"; };
+		47176C7C4F2DFA012020879E4482ED8C /* TRULogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogining-prefix.pch"; sourceTree = "<group>"; };
+		4ABD9B209103D62564C768BF4AFF2183 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4CF2ADF51E281A5FC83DC31B40715DDC /* TRUNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E3BB7F49E54997429AB64C5923C53CB /* libPods-TRULoginingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULoginingUITests.a"; path = "libPods-TRULoginingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F466BBD90EC1906C53F23CC12922D75 /* Pods-TRULoginingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50DF3A6EF2E09612BA9B7CD4792F4CBF /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = TRULogining/Classes/LoginViewController.h; sourceTree = "<group>"; };
+		520CFA4CF695872977969A23145BD61F /* NetWork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetWork.m; path = TRUNetworking/Classes/NetWork.m; sourceTree = "<group>"; };
 		5BB6D132B6657BAC802F1178C14BB2AA /* libTRULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRULogining.a; path = libTRULogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0B7F1AB15D083575D31B47F360C5C6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TRULogining/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		676495183C9D17B4C9910B38C35CD284 /* Pods-TRULoginingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULoginingUITests-dummy.m"; sourceTree = "<group>"; };
-		779B2C3985C1C55B87E7D443104478F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7D32E296F16B52F68FC30BA97B45E844 /* TRULogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRULogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8139DEAE02C8BA7429457705E7D7B008 /* TRUNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNetworking-dummy.m"; sourceTree = "<group>"; };
-		868B8B1ECEEA3FCC6D1F8F179EF1F075 /* TRUNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79DEF1C385AB0C1AF917EC4236FC70EA /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = TRULogining/Classes/LoginViewController.m; sourceTree = "<group>"; };
 		8CA2FB9A7A3C5880FE625D390A05E5C7 /* Pods-TRULogining-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULogining-frameworks.sh"; sourceTree = "<group>"; };
 		8CE1A7C5F974E38F13337059B7780E14 /* libTRUNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRUNetworking.a; path = libTRUNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FC2E9A5305C055B419A98B5DD3997EB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TRUNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97076046EB6B8CC8719FFB80A085133B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D54B7FF13FC8B2FD562EC6A9C928B0E /* libPods-TRULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULogining.a"; path = "libPods-TRULogining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2725221288858BD36F5A42F1964F709 /* Pods-TRULoginingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingTests-frameworks.sh"; sourceTree = "<group>"; };
 		A3639C66C70DE39EF2AFA93EC8D67B81 /* Pods-TRULoginingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingTests-resources.sh"; sourceTree = "<group>"; };
@@ -85,17 +91,14 @@
 		ADEF738CD293A1BA1962870682051B50 /* Pods-TRULoginingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingUITests-resources.sh"; sourceTree = "<group>"; };
 		AE1BFEB82624F7BEE148E856390C50FD /* Pods-TRULoginingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULoginingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B19E5C1F8D67A57897380A82F66F12CD /* Pods-TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULogining-dummy.m"; sourceTree = "<group>"; };
-		B1B5D86C960B4923B3B88702B165A124 /* TRULogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogining-prefix.pch"; sourceTree = "<group>"; };
+		B9A20A897C1E23003B5D23AD19DC3713 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoginViewController.xib; path = TRULogining/Classes/LoginViewController.xib; sourceTree = "<group>"; };
 		BAE514E6E954AF520CEA137D7249E708 /* Pods-TRULoginingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C5A8CA89C7E0ADC3F89D736CAAA41B47 /* TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULogining-dummy.m"; sourceTree = "<group>"; };
-		C7B763406343ED4333CED23CDC6E4805 /* TRULogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogining.xcconfig; sourceTree = "<group>"; };
 		CAAF9F2D38DD3A5A5DF9EEF7FA70F6F9 /* Pods-TRULoginingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingUITests-frameworks.sh"; sourceTree = "<group>"; };
-		CB9CC3DEC5969936A9FECD49E87FAD24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D43F29AA05ED44352031BC1A1AFC4FB2 /* TRUNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetworking-prefix.pch"; sourceTree = "<group>"; };
 		D8F5865416C25A99AB2CA21C8DC9C28C /* Pods-TRULogining-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULogining-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA861FEF7D735D57D3DB4403C6D31124 /* Pods-TRULoginingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC80469D47D0DE9D742C39119F6208C3 /* Pods-TRULogining-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULogining-resources.sh"; sourceTree = "<group>"; };
 		E4C4C0C9DC37BA8E32E42218EBDE219F /* Pods-TRULoginingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingTests.release.xcconfig"; sourceTree = "<group>"; };
-		E7C948F6187DA7E86C998B006A35B337 /* TRUNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetworking.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,16 +140,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04A8BCA1D19F208FD5FC436CED99C60B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CB9CC3DEC5969936A9FECD49E87FAD24 /* LICENSE */,
-				97076046EB6B8CC8719FFB80A085133B /* README.md */,
-				868B8B1ECEEA3FCC6D1F8F179EF1F075 /* TRUNetworking.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,35 +147,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2F2D32506F003BDB3001D60E012E5CAB /* Support Files */ = {
+		1FA23AF6200BE61291DD338A44B367C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7C948F6187DA7E86C998B006A35B337 /* TRUNetworking.xcconfig */,
-				8139DEAE02C8BA7429457705E7D7B008 /* TRUNetworking-dummy.m */,
-				046D502E0A0FA653E7CB78A4A99D6831 /* TRUNetworking-prefix.pch */,
+				3654F4E71332B68F64C63BA05EE1F5CD /* TRUNetworking.xcconfig */,
+				032AC74A880D09708062990626A097AA /* TRUNetworking-dummy.m */,
+				D43F29AA05ED44352031BC1A1AFC4FB2 /* TRUNetworking-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../TRULogining/Example/Pods/Target Support Files/TRUNetworking";
 			sourceTree = "<group>";
 		};
-		3D2D546A6C5861EF6D958091DA2BB8F5 /* Support Files */ = {
+		33D0B2E98D2EA042214E23DEE9810B36 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7B763406343ED4333CED23CDC6E4805 /* TRULogining.xcconfig */,
-				C5A8CA89C7E0ADC3F89D736CAAA41B47 /* TRULogining-dummy.m */,
-				B1B5D86C960B4923B3B88702B165A124 /* TRULogining-prefix.pch */,
+				3534F35458982A46F90CB56B0EE138F5 /* TRULogining.xcconfig */,
+				26027651635B8B99D75AE61F4C7FE624 /* TRULogining-dummy.m */,
+				47176C7C4F2DFA012020879E4482ED8C /* TRULogining-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TRULogining";
 			sourceTree = "<group>";
 		};
-		5537BF174E03EB6F52643C93A712340D /* Development Pods */ = {
+		38285B8A0D1B36EA2ED4D7F25A7023A1 /* TRUNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				A0111D3334F10C89AB92D5F1022DCDB0 /* TRULogining */,
-				9106D9FED22C77B4A1A2212E8EB651E0 /* TRUNetworking */,
+				0BBB19988E7C1C50FD5E2EAA127DF8DD /* NetWork.h */,
+				520CFA4CF695872977969A23145BD61F /* NetWork.m */,
+				A169D9FF0BEB533D3CF5A191A28082CC /* Pod */,
+				1FA23AF6200BE61291DD338A44B367C6 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = TRUNetworking;
+			path = ../../../TRUNetworking;
 			sourceTree = "<group>";
 		};
 		638FAA94D33B2391B2D38D6BEED50EF7 /* Products */ = {
@@ -201,33 +197,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5537BF174E03EB6F52643C93A712340D /* Development Pods */,
+				F9B90F4CBF2DC38BC5557B362FF931FD /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				638FAA94D33B2391B2D38D6BEED50EF7 /* Products */,
 				B47898034CC0550FE0FBC96A66B224E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9106D9FED22C77B4A1A2212E8EB651E0 /* TRUNetworking */ = {
+		A169D9FF0BEB533D3CF5A191A28082CC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8FC2E9A5305C055B419A98B5DD3997EB /* ReplaceMe.m */,
-				04A8BCA1D19F208FD5FC436CED99C60B /* Pod */,
-				2F2D32506F003BDB3001D60E012E5CAB /* Support Files */,
+				4CF2ADF51E281A5FC83DC31B40715DDC /* TRUNetworking.podspec */,
 			);
-			name = TRUNetworking;
-			path = ../../../TRUNetworking;
-			sourceTree = "<group>";
-		};
-		A0111D3334F10C89AB92D5F1022DCDB0 /* TRULogining */ = {
-			isa = PBXGroup;
-			children = (
-				5E0B7F1AB15D083575D31B47F360C5C6 /* ReplaceMe.m */,
-				CD18ED932FBC7D516E074264FF695155 /* Pod */,
-				3D2D546A6C5861EF6D958091DA2BB8F5 /* Support Files */,
-			);
-			name = TRULogining;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B47898034CC0550FE0FBC96A66B224E5 /* Targets Support Files */ = {
@@ -255,12 +237,11 @@
 			path = "Target Support Files/Pods-TRULoginingUITests";
 			sourceTree = "<group>";
 		};
-		CD18ED932FBC7D516E074264FF695155 /* Pod */ = {
+		D12D3E808C81B5CC57799AFE2A0A672E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0305776AF104574881D08649EE4E68D5 /* LICENSE */,
-				779B2C3985C1C55B87E7D443104478F5 /* README.md */,
-				7D32E296F16B52F68FC30BA97B45E844 /* TRULogining.podspec */,
+				4ABD9B209103D62564C768BF4AFF2183 /* LICENSE */,
+				2275BC5B9F04999CDC4B7742C56F055F /* TRULogining.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -295,6 +276,28 @@
 			path = "Target Support Files/Pods-TRULoginingTests";
 			sourceTree = "<group>";
 		};
+		F854FC7278D1CB20DC94113B08C9700B /* TRULogining */ = {
+			isa = PBXGroup;
+			children = (
+				50DF3A6EF2E09612BA9B7CD4792F4CBF /* LoginViewController.h */,
+				79DEF1C385AB0C1AF917EC4236FC70EA /* LoginViewController.m */,
+				B9A20A897C1E23003B5D23AD19DC3713 /* LoginViewController.xib */,
+				D12D3E808C81B5CC57799AFE2A0A672E /* Pod */,
+				33D0B2E98D2EA042214E23DEE9810B36 /* Support Files */,
+			);
+			name = TRULogining;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9B90F4CBF2DC38BC5557B362FF931FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F854FC7278D1CB20DC94113B08C9700B /* TRULogining */,
+				38285B8A0D1B36EA2ED4D7F25A7023A1 /* TRUNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -305,6 +308,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		128D0F89DD00302C7F30132B92AE22D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17633C782E99B0437B42B20E55D3DC36 /* LoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6BAD5D4F7BF8FFC7BF4251556CB03A1B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,21 +323,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72D4346430E9DAC688A78A520346629E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F8CD80A974C2E8206B2B727892D9D /* NetWork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F317DD0EE057303A2E69152C18D9AF6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4AE475FB8E7CA206C80CA1E3767AE3E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCE1B819C329F169F20BF3B32B04C709 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,8 +345,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCE8CD4E49AD00CE1E2552CA5F8DD461 /* Build configuration list for PBXNativeTarget "TRULogining" */;
 			buildPhases = (
-				DCE1B819C329F169F20BF3B32B04C709 /* Headers */,
-				F79C9AB9ABC5A1D57B82F5E67902A888 /* Sources */,
+				128D0F89DD00302C7F30132B92AE22D4 /* Headers */,
+				5F1F57707FBD2387050857DC723A472A /* Sources */,
 				6D4381C624E2A8987A1693E2C3C05CD9 /* Frameworks */,
 			);
 			buildRules = (
@@ -394,8 +399,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DEF439F93885A19F0C43B0910F750D6 /* Build configuration list for PBXNativeTarget "TRUNetworking" */;
 			buildPhases = (
-				C4AE475FB8E7CA206C80CA1E3767AE3E /* Headers */,
-				8EBE32E882B9EEB3B6E08B30C930E776 /* Sources */,
+				72D4346430E9DAC688A78A520346629E /* Headers */,
+				323E0E779CCD127B3895A8C821DEB72C /* Sources */,
 				A2E1AC32718CC98E7734DF8A665DD023 /* Frameworks */,
 			);
 			buildRules = (
@@ -465,6 +470,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		323E0E779CCD127B3895A8C821DEB72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5BCB00214D2736414AD38D92F3B73 /* NetWork.m in Sources */,
+				7539BC8CF48D4EF26EE660C01AA18A2E /* TRUNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41AF438A988436765AC6FE6C0B778845 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,12 +487,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EBE32E882B9EEB3B6E08B30C930E776 /* Sources */ = {
+		5F1F57707FBD2387050857DC723A472A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D808063EA3FB813440E147E390FEC41E /* ReplaceMe.m in Sources */,
-				80C6273BA858D364AB4205F61BA83A62 /* TRUNetworking-dummy.m in Sources */,
+				A03CD2AF11F7FC37BAA37F3119878048 /* LoginViewController.m in Sources */,
+				E4DB09CB9FF88140AEC1A07F25EB2798 /* LoginViewController.xib in Sources */,
+				379B6C11D18F5BA4A270B1BEDF1BBD5B /* TRULogining-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,15 +502,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D8BF7CDBBC49E65688029838783A70 /* Pods-TRULoginingUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F79C9AB9ABC5A1D57B82F5E67902A888 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C0A1642D0F520C1647DB996DBB16EC8 /* ReplaceMe.m in Sources */,
-				A4634171193E3F722E39E706C970DD74 /* TRULogining-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +566,7 @@
 		};
 		3A950FDBFCD78FA31112371BEE3324B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B763406343ED4333CED23CDC6E4805 /* TRULogining.xcconfig */;
+			baseConfigurationReference = 3534F35458982A46F90CB56B0EE138F5 /* TRULogining.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -606,7 +612,7 @@
 		};
 		64C55F0E039883801834F2CAE2F6BC02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7C948F6187DA7E86C998B006A35B337 /* TRUNetworking.xcconfig */;
+			baseConfigurationReference = 3654F4E71332B68F64C63BA05EE1F5CD /* TRUNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -775,7 +781,7 @@
 		};
 		A779ED176CF51EADB80D32B833447C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B763406343ED4333CED23CDC6E4805 /* TRULogining.xcconfig */;
+			baseConfigurationReference = 3534F35458982A46F90CB56B0EE138F5 /* TRULogining.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -866,7 +872,7 @@
 		};
 		FE716D814A561491DAB97686ED3628E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7C948F6187DA7E86C998B006A35B337 /* TRUNetworking.xcconfig */;
+			baseConfigurationReference = 3654F4E71332B68F64C63BA05EE1F5CD /* TRUNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -1,7 +1,7 @@
 PODS:
   - TRULogining (0.1.0):
     - TRUNetworking
-  - TRUNetworking (0.1.0)
+  - TRUNetworking (0.0.1)
 
 DEPENDENCIES:
   - TRULogining (from `../`)
@@ -14,8 +14,8 @@ EXTERNAL SOURCES:
     :path: "../../TRUNetworking"
 
 SPEC CHECKSUMS:
-  TRULogining: 7376c34a315e151ad20dbab3eed03d12338d7c10
-  TRUNetworking: 6ef6f1e01788c6c49794c1c9936d839205ddb45e
+  TRULogining: fe813da314796d5d67f7976c9c72a33e09063be6
+  TRUNetworking: 39c8ab30279aaf4521134a14bf7332daa8e7944b
 
 PODFILE CHECKSUM: 471a48827049bc6432c2a3e949bef69d9a58f056
 

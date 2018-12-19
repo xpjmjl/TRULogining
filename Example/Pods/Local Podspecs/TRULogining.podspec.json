@@ -1,9 +1,9 @@
 {
   "name": "TRULogining",
   "version": "0.1.0",
-  "summary": "A short description of TRULogining.",
+  "summary": "TRULogining.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xupengju/TRULogining",
+  "homepage": "https://github.com/xpjmjl/TRULogining.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xupengju": "xupengju@qupeiyin.com"
   },
   "source": {
-    "git": "https://github.com/xupengju/TRULogining.git",
+    "git": "https://github.com/xpjmjl/TRULogining.git",
     "tag": "0.1.0"
   },
   "platforms": {
