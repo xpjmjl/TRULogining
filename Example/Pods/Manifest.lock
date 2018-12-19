@@ -1,22 +1,24 @@
 PODS:
-  - TRULogining (0.1.0):
-    - TRUNetworking
-  - TRUNetworking (0.0.1)
+  - XPJLogining (0.0.1):
+    - XPJNetworking (~> 0.0.2)
+  - XPJNetworking (0.0.2)
 
 DEPENDENCIES:
-  - TRULogining (from `../`)
-  - TRUNetworking (from `../../TRUNetworking`)
+  - XPJLogining (from `../`)
+  - XPJNetworking
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - XPJNetworking
 
 EXTERNAL SOURCES:
-  TRULogining:
+  XPJLogining:
     :path: "../"
-  TRUNetworking:
-    :path: "../../TRUNetworking"
 
 SPEC CHECKSUMS:
-  TRULogining: fe813da314796d5d67f7976c9c72a33e09063be6
-  TRUNetworking: 39c8ab30279aaf4521134a14bf7332daa8e7944b
+  XPJLogining: feee15a38c741effd88807bb660f29f12a086c14
+  XPJNetworking: d73942753a6ddd5542d2f62cfb47c136245b564e
 
-PODFILE CHECKSUM: 471a48827049bc6432c2a3e949bef69d9a58f056
+PODFILE CHECKSUM: ce125619c166c4e6e57f1e2d47d3c29b8380adce
 
 COCOAPODS: 1.5.3

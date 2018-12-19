@@ -30,14 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XPJLogining/Classes/*'
+  s.source_files = 'XPJLogining/Classes/*.{m,h,xib}'
   
   # s.resource_bundles = {
   #   'TRUNetworking' => ['XPJLogining/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'XPJNetworking', '~> 0.0.2'
 end

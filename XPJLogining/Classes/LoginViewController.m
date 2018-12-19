@@ -6,7 +6,7 @@
 //
 
 #import "LoginViewController.h"
-//#import <TRUNetworking/NetWork.h>
+#import <XPJNetworking/NetWork.h>
 
 @interface LoginViewController ()
 @property (unsafe_unretained, nonatomic) IBOutlet UITextField *nameTF;
@@ -23,12 +23,12 @@
 }
 - (IBAction)loginAction:(id)sender {
     if (_nameTF.text.length && _passwordTF.text.length) {
-//        BOOL isLogin = [NetWork loginWithName:_nameTF.text password:_passwordTF.text];
-//        if (isLogin) {
-//            NSLog(@"登录成功");
-//        } else {
-//            NSLog(@"登录失败");
-//        }
+        BOOL isLogin = [NetWork loginWithName:_nameTF.text password:_passwordTF.text];
+        if (isLogin) {
+            NSLog(@"登录成功");
+        } else {
+            NSLog(@"登录失败");
+        }
     } else {
         NSLog(@"请输入账号和密码");
     }
