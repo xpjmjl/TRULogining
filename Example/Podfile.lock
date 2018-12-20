@@ -1,11 +1,10 @@
 PODS:
-  - XPJLogining (0.0.1):
+  - XPJLogining (0.0.3):
     - XPJNetworking (~> 0.0.2)
   - XPJNetworking (0.0.2)
 
 DEPENDENCIES:
   - XPJLogining (from `../`)
-  - XPJNetworking
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -16,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XPJLogining: feee15a38c741effd88807bb660f29f12a086c14
+  XPJLogining: 4d319e822c32198d349d6b272c7a9fc5ad26edc7
   XPJNetworking: d73942753a6ddd5542d2f62cfb47c136245b564e
 
-PODFILE CHECKSUM: ce125619c166c4e6e57f1e2d47d3c29b8380adce
+PODFILE CHECKSUM: 7211fed513190f769848714997099d1f9e115992
 
 COCOAPODS: 1.5.3

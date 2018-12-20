@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28A8787D191E1854475C9A6032709461 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4D7AF534648A8CA8C4564D23BED9B /* LoginViewController.m */; };
-		2D77190884EE9966D1B569525E1A864C /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 87909478481C1D074752F49F9F087CA1 /* LoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4760D5DAF9953C88E47001301468AC04 /* LoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1DC17C8F66A535306462972A3BD36410 /* LoginViewController.xib */; };
+		05478A09F07F35A8845E57B3B8C5EC3E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BC13E483422D71C1DA82B7816B26F3 /* LoginViewController.xib */; };
+		1E778F6F952BB026F3243F4890EF2474 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E41EAE69CE1469AFB56346C305B9F2 /* LoginViewController.m */; };
+		2D77190884EE9966D1B569525E1A864C /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3A0F920A5EAFB72A11DF33A72A6B41 /* LoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4946918573BBDFA50989DAB42E224BA8 /* NetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A6832E38CDDD0CF1D140E326C2DC6E /* NetWork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DCA489139792D97E430817254C4AB61 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1EDBE4DFA07DD2F90B29D3E99BCEF4 /* 1.png */; };
 		51D8BF7CDBBC49E65688029838783A70 /* Pods-TRULoginingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 676495183C9D17B4C9910B38C35CD284 /* Pods-TRULoginingUITests-dummy.m */; };
-		5867199C9722126DD491EDBC1E82ED00 /* XPJLogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3CDF2C143157C43443D92D919B6320 /* XPJLogining-dummy.m */; };
 		A45F933D4778A3F678FD24A9F5A92474 /* Pods-TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B19E5C1F8D67A57897380A82F66F12CD /* Pods-TRULogining-dummy.m */; };
 		A7ED58FBAA046E75CDFDF4386152827D /* Pods-TRULoginingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5302BC30C02BC349EBD11D5AD59444 /* Pods-TRULoginingTests-dummy.m */; };
+		BB9EFCB13F5B9B613188A97B31BDAA18 /* XPJLogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16820FA8141198A304CD719F0A5CFC5 /* XPJLogining-dummy.m */; };
 		E09867C3E23562676375B209C4643713 /* XPJNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B320A2A0D686016FA00B8D0EC54817 /* XPJNetworking-dummy.m */; };
 		EF0E13C0C1A1F032640EF42879962276 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8D82683D28CFF3BBE33A489466906 /* NetWork.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,13 @@
 			remoteGlobalIDString = 38E9B92C6F434B1ADFF38286A2083C01;
 			remoteInfo = XPJNetworking;
 		};
+		7DFF0077F3445A00FC1DDD9C0549E484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E406D3FBAA3E34B90055591DFA323107;
+			remoteInfo = "XPJLogining-XPJLogining";
+		};
 		87F755C3E12573DF9A4DDDDE0FC1B7A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -58,49 +66,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E41EAE69CE1469AFB56346C305B9F2 /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = XPJLogining/Classes/LoginViewController.m; sourceTree = "<group>"; };
+		0AF26F9E55340002FCEE01CEF3DA32ED /* libPods-TRULoginingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULoginingUITests.a"; path = "libPods-TRULoginingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3B2148E88EBC23AAC8F20E61489AC1 /* Pods-TRULogining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining.release.xcconfig"; sourceTree = "<group>"; };
-		0D3CDF2C143157C43443D92D919B6320 /* XPJLogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPJLogining-dummy.m"; sourceTree = "<group>"; };
+		0E1EDBE4DFA07DD2F90B29D3E99BCEF4 /* 1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		0E744A91790E680BDE0F272E95DE0B5A /* Pods-TRULoginingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULoginingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EF0D9092314F7675BFBA7B4C8D70D25 /* XPJNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPJNetworking.xcconfig; sourceTree = "<group>"; };
-		1DC17C8F66A535306462972A3BD36410 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoginViewController.xib; path = XPJLogining/Classes/LoginViewController.xib; sourceTree = "<group>"; };
+		16C782022BFD92B0C45E16967365C86A /* XPJLogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPJLogining.xcconfig; sourceTree = "<group>"; };
 		20271695F0875BB93557BFE8828DE757 /* Pods-TRULogining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining.debug.xcconfig"; sourceTree = "<group>"; };
-		2749A4A58DFA73F7E518C6FDB7213D02 /* libXPJLogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXPJLogining.a; path = libXPJLogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D83733802655BD7CECBA812B1685FCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2DBEBDE8131D59D1AD7425FE867276BE /* Pods-TRULoginingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULoginingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33D3DED854AA12A6D997A0657F336418 /* XPJLogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XPJLogining.xcconfig; sourceTree = "<group>"; };
-		346D2C71C0F3399AEC02AD63700A4DC7 /* libPods-TRULoginingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULoginingTests.a"; path = "libPods-TRULoginingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DD05779ED0BC48DE20F1D3EC6EC405 /* Pods-TRULogining-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULogining-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A7CC9C34462BC753F2448F620CC9E38 /* XPJLogining.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XPJLogining.bundle; path = "XPJLogining-XPJLogining.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5302BC30C02BC349EBD11D5AD59444 /* Pods-TRULoginingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULoginingTests-dummy.m"; sourceTree = "<group>"; };
 		4F466BBD90EC1906C53F23CC12922D75 /* Pods-TRULoginingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5689F7E726D7585165DD1E1D0AA86E07 /* ResourceBundle-XPJLogining-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XPJLogining-Info.plist"; sourceTree = "<group>"; };
+		601FAD7D3D92DB0F3A84F67DA19888A4 /* libPods-TRULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULogining.a"; path = "libPods-TRULogining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		676495183C9D17B4C9910B38C35CD284 /* Pods-TRULoginingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULoginingUITests-dummy.m"; sourceTree = "<group>"; };
-		87909478481C1D074752F49F9F087CA1 /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = XPJLogining/Classes/LoginViewController.h; sourceTree = "<group>"; };
+		7724BD8828F32670D795A2E2D3D00353 /* libXPJLogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXPJLogining.a; path = libXPJLogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6664FB19551FEE4C6D96A88098D5CA /* libPods-TRULoginingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULoginingTests.a"; path = "libPods-TRULoginingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA2FB9A7A3C5880FE625D390A05E5C7 /* Pods-TRULogining-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULogining-frameworks.sh"; sourceTree = "<group>"; };
+		8E552E1C33A4BAC80E48AD48C604052E /* XPJLogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XPJLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DCEE8525C09745E283A30519E666A0F /* libPods-TRULoginingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULoginingUITests.a"; path = "libPods-TRULoginingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2725221288858BD36F5A42F1964F709 /* Pods-TRULoginingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingTests-frameworks.sh"; sourceTree = "<group>"; };
 		A3639C66C70DE39EF2AFA93EC8D67B81 /* Pods-TRULoginingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingTests-resources.sh"; sourceTree = "<group>"; };
 		A4C1A554B451D18308E6D9676A1B5CE8 /* Pods-TRULoginingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULoginingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A8E8D82683D28CFF3BBE33A489466906 /* NetWork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetWork.m; path = XPJNetworking/Classes/NetWork.m; sourceTree = "<group>"; };
 		ADEF738CD293A1BA1962870682051B50 /* Pods-TRULoginingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingUITests-resources.sh"; sourceTree = "<group>"; };
 		AE1BFEB82624F7BEE148E856390C50FD /* Pods-TRULoginingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULoginingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0CD7C0EF31E86467ECEFB1431746790 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B19E5C1F8D67A57897380A82F66F12CD /* Pods-TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULogining-dummy.m"; sourceTree = "<group>"; };
 		B4A6832E38CDDD0CF1D140E326C2DC6E /* NetWork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetWork.h; path = XPJNetworking/Classes/NetWork.h; sourceTree = "<group>"; };
 		B5B320A2A0D686016FA00B8D0EC54817 /* XPJNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPJNetworking-dummy.m"; sourceTree = "<group>"; };
 		BAE514E6E954AF520CEA137D7249E708 /* Pods-TRULoginingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CA8FC341CC6A0F58C34CADCA06E62B98 /* libPods-TRULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TRULogining.a"; path = "libPods-TRULogining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16820FA8141198A304CD719F0A5CFC5 /* XPJLogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XPJLogining-dummy.m"; sourceTree = "<group>"; };
 		CAAF9F2D38DD3A5A5DF9EEF7FA70F6F9 /* Pods-TRULoginingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULoginingUITests-frameworks.sh"; sourceTree = "<group>"; };
-		CEC4D7AF534648A8CA8C4564D23BED9B /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = XPJLogining/Classes/LoginViewController.m; sourceTree = "<group>"; };
+		D0BC13E483422D71C1DA82B7816B26F3 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D8F5865416C25A99AB2CA21C8DC9C28C /* Pods-TRULogining-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULogining-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA306671B491849B46535313B04FFE55 /* libXPJNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXPJNetworking.a; path = libXPJNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3A0F920A5EAFB72A11DF33A72A6B41 /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = XPJLogining/Classes/LoginViewController.h; sourceTree = "<group>"; };
 		DA861FEF7D735D57D3DB4403C6D31124 /* Pods-TRULoginingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC647DC6C19D093432CCE2CD6E571EFC /* XPJLogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPJLogining-prefix.pch"; sourceTree = "<group>"; };
 		DC80469D47D0DE9D742C39119F6208C3 /* Pods-TRULogining-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULogining-resources.sh"; sourceTree = "<group>"; };
 		E4C4C0C9DC37BA8E32E42218EBDE219F /* Pods-TRULoginingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULoginingTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6B5B5E1BC77F71F62719580429CB636 /* XPJNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPJNetworking-prefix.pch"; sourceTree = "<group>"; };
-		EBEE1EC4FE6894B84809DAC044B0DC64 /* XPJLogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XPJLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E80B61042C27E4BC8AF11B01EED63FC2 /* XPJLogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XPJLogining-prefix.pch"; sourceTree = "<group>"; };
+		FF3853642F818F2C06AF4933EB920142 /* libXPJNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXPJNetworking.a; path = libXPJNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3413DB53E9DE8D621120EB928C696981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		395CD2D44067D712E220DDF22CA8EA5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,17 +164,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4B4FF0C489066BE03E21197344E6B933 /* XPJLogining */ = {
+		162BD168D9017FB60EAAEA04054E97FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				87909478481C1D074752F49F9F087CA1 /* LoginViewController.h */,
-				CEC4D7AF534648A8CA8C4564D23BED9B /* LoginViewController.m */,
-				1DC17C8F66A535306462972A3BD36410 /* LoginViewController.xib */,
-				82CEE3E64F388FA5076E2C347858BE18 /* Pod */,
-				62D1B5D66B55C6C4B26D8A0653011F83 /* Support Files */,
+				5689F7E726D7585165DD1E1D0AA86E07 /* ResourceBundle-XPJLogining-Info.plist */,
+				16C782022BFD92B0C45E16967365C86A /* XPJLogining.xcconfig */,
+				C16820FA8141198A304CD719F0A5CFC5 /* XPJLogining-dummy.m */,
+				E80B61042C27E4BC8AF11B01EED63FC2 /* XPJLogining-prefix.pch */,
 			);
-			name = XPJLogining;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XPJLogining";
+			sourceTree = "<group>";
+		};
+		31396A93EA06BB9C54DB17BD9610CA2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFAB91CF7FA37A1DE5510CA717DE505B /* Assets */,
+				BE508858D65D530AB761D2AE98E1B2B5 /* Classes */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5158519618BD59123C596A13A92A1C48 /* Pods */ = {
@@ -165,17 +191,6 @@
 				76EE364E40EF879852E4B92187056BB9 /* XPJNetworking */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		62D1B5D66B55C6C4B26D8A0653011F83 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				33D3DED854AA12A6D997A0657F336418 /* XPJLogining.xcconfig */,
-				0D3CDF2C143157C43443D92D919B6320 /* XPJLogining-dummy.m */,
-				DC647DC6C19D093432CCE2CD6E571EFC /* XPJLogining-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XPJLogining";
 			sourceTree = "<group>";
 		};
 		76EE364E40EF879852E4B92187056BB9 /* XPJNetworking */ = {
@@ -196,18 +211,22 @@
 				D73BF6EA3D271B1EA6F99D940F2B43B0 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				5158519618BD59123C596A13A92A1C48 /* Pods */,
-				E510B48AD822C5FF58F1E412045AC688 /* Products */,
+				CA40797933D154D1BED62714A9CF1CD7 /* Products */,
 				B47898034CC0550FE0FBC96A66B224E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82CEE3E64F388FA5076E2C347858BE18 /* Pod */ = {
+		86A08627CEF6F034BC59FE5474EEDF0B /* XPJLogining */ = {
 			isa = PBXGroup;
 			children = (
-				2D83733802655BD7CECBA812B1685FCF /* LICENSE */,
-				EBEE1EC4FE6894B84809DAC044B0DC64 /* XPJLogining.podspec */,
+				DA3A0F920A5EAFB72A11DF33A72A6B41 /* LoginViewController.h */,
+				05E41EAE69CE1469AFB56346C305B9F2 /* LoginViewController.m */,
+				F2BEB8811EE1BC8253DA7C6444DBD4E6 /* Pod */,
+				31396A93EA06BB9C54DB17BD9610CA2C /* Resources */,
+				162BD168D9017FB60EAAEA04054E97FD /* Support Files */,
 			);
-			name = Pod;
+			name = XPJLogining;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9EA5B784B1E507D6FBA63755B692FEB4 /* Support Files */ = {
@@ -221,6 +240,15 @@
 			path = "../Target Support Files/XPJNetworking";
 			sourceTree = "<group>";
 		};
+		AFAB91CF7FA37A1DE5510CA717DE505B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0E1EDBE4DFA07DD2F90B29D3E99BCEF4 /* 1.png */,
+			);
+			name = Assets;
+			path = XPJLogining/Assets;
+			sourceTree = "<group>";
+		};
 		B47898034CC0550FE0FBC96A66B224E5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +257,15 @@
 				C3B4E0AB2C3A432679317FB96FCCBAB4 /* Pods-TRULoginingUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE508858D65D530AB761D2AE98E1B2B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC13E483422D71C1DA82B7816B26F3 /* LoginViewController.xib */,
+			);
+			name = Classes;
+			path = XPJLogining/Classes;
 			sourceTree = "<group>";
 		};
 		C3B4E0AB2C3A432679317FB96FCCBAB4 /* Pods-TRULoginingUITests */ = {
@@ -246,24 +283,34 @@
 			path = "Target Support Files/Pods-TRULoginingUITests";
 			sourceTree = "<group>";
 		};
+		CA40797933D154D1BED62714A9CF1CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601FAD7D3D92DB0F3A84F67DA19888A4 /* libPods-TRULogining.a */,
+				8A6664FB19551FEE4C6D96A88098D5CA /* libPods-TRULoginingTests.a */,
+				0AF26F9E55340002FCEE01CEF3DA32ED /* libPods-TRULoginingUITests.a */,
+				7724BD8828F32670D795A2E2D3D00353 /* libXPJLogining.a */,
+				FF3853642F818F2C06AF4933EB920142 /* libXPJNetworking.a */,
+				3A7CC9C34462BC753F2448F620CC9E38 /* XPJLogining.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D73BF6EA3D271B1EA6F99D940F2B43B0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B4FF0C489066BE03E21197344E6B933 /* XPJLogining */,
+				86A08627CEF6F034BC59FE5474EEDF0B /* XPJLogining */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E510B48AD822C5FF58F1E412045AC688 /* Products */ = {
+		F2BEB8811EE1BC8253DA7C6444DBD4E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CA8FC341CC6A0F58C34CADCA06E62B98 /* libPods-TRULogining.a */,
-				346D2C71C0F3399AEC02AD63700A4DC7 /* libPods-TRULoginingTests.a */,
-				9DCEE8525C09745E283A30519E666A0F /* libPods-TRULoginingUITests.a */,
-				2749A4A58DFA73F7E518C6FDB7213D02 /* libXPJLogining.a */,
-				DA306671B491849B46535313B04FFE55 /* libXPJNetworking.a */,
+				B0CD7C0EF31E86467ECEFB1431746790 /* LICENSE */,
+				8E552E1C33A4BAC80E48AD48C604052E /* XPJLogining.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F3ED8BD7DF038D226BD1496AB218C628 /* Pods-TRULogining */ = {
@@ -353,7 +400,7 @@
 			);
 			name = XPJNetworking;
 			productName = XPJNetworking;
-			productReference = DA306671B491849B46535313B04FFE55 /* libXPJNetworking.a */;
+			productReference = FF3853642F818F2C06AF4933EB920142 /* libXPJNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8B8B4EACB3E1DE5CE2C408D7065B7ABA /* Pods-TRULoginingUITests */ = {
@@ -371,7 +418,7 @@
 			);
 			name = "Pods-TRULoginingUITests";
 			productName = "Pods-TRULoginingUITests";
-			productReference = 9DCEE8525C09745E283A30519E666A0F /* libPods-TRULoginingUITests.a */;
+			productReference = 0AF26F9E55340002FCEE01CEF3DA32ED /* libPods-TRULoginingUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A24637812BE9C0B87098363F1D4CA3E8 /* Pods-TRULogining */ = {
@@ -390,7 +437,7 @@
 			);
 			name = "Pods-TRULogining";
 			productName = "Pods-TRULogining";
-			productReference = CA8FC341CC6A0F58C34CADCA06E62B98 /* libPods-TRULogining.a */;
+			productReference = 601FAD7D3D92DB0F3A84F67DA19888A4 /* libPods-TRULogining.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A26DB583E1B8A5F9E354AC72BB58150D /* Pods-TRULoginingTests */ = {
@@ -408,7 +455,7 @@
 			);
 			name = "Pods-TRULoginingTests";
 			productName = "Pods-TRULoginingTests";
-			productReference = 346D2C71C0F3399AEC02AD63700A4DC7 /* libPods-TRULoginingTests.a */;
+			productReference = 8A6664FB19551FEE4C6D96A88098D5CA /* libPods-TRULoginingTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		CEBB1C3BFA567DD937D164E891B7E9FD /* XPJLogining */ = {
@@ -416,18 +463,36 @@
 			buildConfigurationList = 5D2F96885CDD388CC5FE573A41AB44A9 /* Build configuration list for PBXNativeTarget "XPJLogining" */;
 			buildPhases = (
 				3CF14877180A9781DA70408A8761DFB7 /* Headers */,
-				C22A015B1F4093F500297E314F044151 /* Sources */,
+				67613DB72B44A92D0D5258BAB9C58A65 /* Sources */,
 				395CD2D44067D712E220DDF22CA8EA5B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3CB5ECA2F5C9193F4177AAC45A7DBB11 /* PBXTargetDependency */,
 				859273067EFD95D4D6E747D47CA740AC /* PBXTargetDependency */,
 			);
 			name = XPJLogining;
 			productName = XPJLogining;
-			productReference = 2749A4A58DFA73F7E518C6FDB7213D02 /* libXPJLogining.a */;
+			productReference = 7724BD8828F32670D795A2E2D3D00353 /* libXPJLogining.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		E406D3FBAA3E34B90055591DFA323107 /* XPJLogining-XPJLogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F2D30C9D16B6FD1EAFF1C46F2CD17D /* Build configuration list for PBXNativeTarget "XPJLogining-XPJLogining" */;
+			buildPhases = (
+				2160DD8A67EB90B2930872DD3A7C389A /* Sources */,
+				3413DB53E9DE8D621120EB928C696981 /* Frameworks */,
+				B0F214490EA647E60C582BC68F17578E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XPJLogining-XPJLogining";
+			productName = "XPJLogining-XPJLogining";
+			productReference = 3A7CC9C34462BC753F2448F620CC9E38 /* XPJLogining.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -446,7 +511,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E510B48AD822C5FF58F1E412045AC688 /* Products */;
+			productRefGroup = CA40797933D154D1BED62714A9CF1CD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -454,10 +519,23 @@
 				A26DB583E1B8A5F9E354AC72BB58150D /* Pods-TRULoginingTests */,
 				8B8B4EACB3E1DE5CE2C408D7065B7ABA /* Pods-TRULoginingUITests */,
 				CEBB1C3BFA567DD937D164E891B7E9FD /* XPJLogining */,
+				E406D3FBAA3E34B90055591DFA323107 /* XPJLogining-XPJLogining */,
 				38E9B92C6F434B1ADFF38286A2083C01 /* XPJNetworking */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0F214490EA647E60C582BC68F17578E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCA489139792D97E430817254C4AB61 /* 1.png in Resources */,
+				05478A09F07F35A8845E57B3B8C5EC3E /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		026BC807282DFB7D30E881D1A1D2458C /* Sources */ = {
@@ -477,6 +555,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2160DD8A67EB90B2930872DD3A7C389A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FA61518CB58C9A0A907DD0190A2AD80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,13 +570,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C22A015B1F4093F500297E314F044151 /* Sources */ = {
+		67613DB72B44A92D0D5258BAB9C58A65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A8787D191E1854475C9A6032709461 /* LoginViewController.m in Sources */,
-				4760D5DAF9953C88E47001301468AC04 /* LoginViewController.xib in Sources */,
-				5867199C9722126DD491EDBC1E82ED00 /* XPJLogining-dummy.m in Sources */,
+				1E778F6F952BB026F3243F4890EF2474 /* LoginViewController.m in Sources */,
+				BB9EFCB13F5B9B613188A97B31BDAA18 /* XPJLogining-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +601,12 @@
 			name = "Pods-TRULogining";
 			target = A24637812BE9C0B87098363F1D4CA3E8 /* Pods-TRULogining */;
 			targetProxy = 87F755C3E12573DF9A4DDDDE0FC1B7A2 /* PBXContainerItemProxy */;
+		};
+		3CB5ECA2F5C9193F4177AAC45A7DBB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XPJLogining-XPJLogining";
+			target = E406D3FBAA3E34B90055591DFA323107 /* XPJLogining-XPJLogining */;
+			targetProxy = 7DFF0077F3445A00FC1DDD9C0549E484 /* PBXContainerItemProxy */;
 		};
 		687798011ED86467D34438C690005126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -629,7 +719,7 @@
 		};
 		64BE0114F196AE88A2CA7FEF762CD26E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D3DED854AA12A6D997A0657F336418 /* XPJLogining.xcconfig */;
+			baseConfigurationReference = 16C782022BFD92B0C45E16967365C86A /* XPJLogining.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -755,6 +845,22 @@
 			};
 			name = Release;
 		};
+		B1620E55AF9BB656792523E6AB422716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C782022BFD92B0C45E16967365C86A /* XPJLogining.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XPJLogining";
+				INFOPLIST_FILE = "Target Support Files/XPJLogining/ResourceBundle-XPJLogining-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XPJLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -841,9 +947,25 @@
 			};
 			name = Release;
 		};
+		E232E55589D939E9EEE1222C02147427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C782022BFD92B0C45E16967365C86A /* XPJLogining.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XPJLogining";
+				INFOPLIST_FILE = "Target Support Files/XPJLogining/ResourceBundle-XPJLogining-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XPJLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		F469CD2ACB852889A7B04EF7B040CD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33D3DED854AA12A6D997A0657F336418 /* XPJLogining.xcconfig */;
+			baseConfigurationReference = 16C782022BFD92B0C45E16967365C86A /* XPJLogining.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -938,6 +1060,15 @@
 			buildConfigurations = (
 				28AC655222239AF640DC64E2026422EA /* Debug */,
 				962BF3C2AC16A053EF179850ED35E32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F2D30C9D16B6FD1EAFF1C46F2CD17D /* Build configuration list for PBXNativeTarget "XPJLogining-XPJLogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1620E55AF9BB656792523E6AB422716 /* Debug */,
+				E232E55589D939E9EEE1222C02147427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

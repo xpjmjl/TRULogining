@@ -16,28 +16,37 @@
 
 @implementation LoginViewController
 
-- (instancetype)initXib {
-    self = [super initWithNibName:@"LoginViewController" bundle:nil];
-    return self;
++ (NSBundle *)wg_subBundleWithBundleName:(NSString *)bundleName targetClass:(Class)targetClass{
+    //并没有拿到子bundle
+    NSBundle *bundle = [NSBundle bundleForClass:targetClass];
+    //在这个路径下找到子bundle的路径
+    NSString *path = [bundle pathForResource:bundleName ofType:@"bundle"];
+    //根据路径拿到子bundle
+    return path?[NSBundle bundleWithPath:path]:[NSBundle mainBundle];
+    
+    /*
+     这种方式也可以
+     NSBundle *bundle = [NSBundle bundleForClass:targetClass];
+     NSURL *url = [bundle URLForResource:bundleName withExtension:@"bundle"];
+     return path?[NSBundle bundleWithURL:url]:[NSBundle mainBundle];
+     */
 }
 
 - (instancetype)init
 {
-    self = [super init];
+    self = [super initWithNibName:@"LoginViewController" bundle:[LoginViewController wg_subBundleWithBundleName:@"XPJLogining" targetClass:[self class]]];
+    
     if (self) {
-        
+
     }
     return self;
-}
-
-- (void)test {
-
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"登录";
-    // Do any additional setup after loading the view from its nib.
+    _nameTF.text = self.name;
+    _passwordTF.text = self.password;
 }
 - (IBAction)loginAction:(id)sender {
     if (_nameTF.text.length && _passwordTF.text.length) {

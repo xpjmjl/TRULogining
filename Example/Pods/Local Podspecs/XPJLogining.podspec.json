@@ -1,6 +1,6 @@
 {
   "name": "XPJLogining",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "XPJLogining.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xpjmjl/TRULogining.git",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/xpjmjl/TRULogining.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XPJLogining/Classes/*",
+  "source_files": "XPJLogining/**/*.{m,h}",
+  "resource_bundles": {
+    "XPJLogining": [
+      "XPJLogining/**/*.{png,xib}"
+    ]
+  },
   "dependencies": {
     "XPJNetworking": [
       "~> 0.0.2"

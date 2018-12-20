@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <XPJLogining/LoginViewController.h>
 
 @interface ViewController ()
 
@@ -18,6 +19,10 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)loginAction:(id)sender {
+    LoginViewController *loginVc = [[LoginViewController alloc] init];
+    [self.navigationController pushViewController:loginVc animated:YES];
 }
 
 

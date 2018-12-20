@@ -10,11 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LoginViewController : UIViewController
-
-- (instancetype)initXib;
-
-- (void)test;
-
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *password;
 @end
 
 NS_ASSUME_NONNULL_END

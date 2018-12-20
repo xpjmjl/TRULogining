@@ -8,7 +8,7 @@ target 'TRULogining' do
   # Pods for TRULogining
 pod 'XPJLogining', :path => '../'
 #pod 'TRUNetworking', :path => '../../TRUNetworking'
-pod 'XPJNetworking'
+#pod 'XPJNetworking'
 
   target 'TRULoginingTests' do
     inherit! :search_paths

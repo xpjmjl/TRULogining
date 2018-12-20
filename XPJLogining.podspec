@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XPJLogining'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'XPJLogining.'
 
 # This description is used to generate tags and improve search results.
@@ -30,12 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XPJLogining/**/*.{m,h,xib}'
-  #s.resources = "XPJLogining/**/*.{xib}"
+  s.source_files = 'XPJLogining/**/*.{m,h}'
+ # s.resources = "XPJLogining/**/*.{xib}"
   
-  # s.resource_bundles = {
-  #   'TRUNetworking' => ['XPJLogining/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'XPJLogining' => ['XPJLogining/**/*.{png,xib}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'Foundation'
